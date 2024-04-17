@@ -4,24 +4,24 @@
 
 #define BLOCK_BYTES 16
 
-AES128 aes128;
-AES192 aes192;
-AES256 aes256;
+AesContext aes128;
+AesContext aes192;
+AesContext aes256;
 
-void perfAESCipher(BlockCipher *cipher, const struct TestVector *test)
+void perfAESCipher(AesContext *context, const struct TestVector *test)
 {
     unsigned long start;
     unsigned long elapsed;
     int count;
 
-    cipher->setKey(test->key, cipher->keySize());
+    aesInit(context, test->key, sizeof(test->key));
 
     Serial.print(test->name);
     Serial.print(" Encrypting ... ");
     start = micros();
     for (count = 0; count < TEST_ITERATIONS; ++count) {
         for (int blocks = 0; blocks < BUFFER_SIZE; blocks += BLOCK_BYTES) {
-            cipher->encryptBlock(buffer + blocks, buffer + blocks + BLOCK_BYTES);
+            aesEncryptBlock(context, buffer + blocks, buffer + blocks + BLOCK_BYTES);
         }
     }
     elapsed = micros() - start;
@@ -35,7 +35,7 @@ void perfAESCipher(BlockCipher *cipher, const struct TestVector *test)
     start = micros();
     for (count = 0; count < TEST_ITERATIONS; ++count) {
         for (int blocks = 0; blocks < BUFFER_SIZE; blocks += BLOCK_BYTES) {
-            cipher->decryptBlock(buffer + blocks, buffer + blocks + BLOCK_BYTES);
+            aesDecryptBlock(context, buffer + blocks, buffer + blocks + BLOCK_BYTES);
         } 
     }
     elapsed = micros() - start;

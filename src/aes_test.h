@@ -1,9 +1,12 @@
 #ifndef AES_TEST_H
 #define AES_TEST_H
 
-#include <Crypto.h>
-#include <AES.h>
+// #include <Crypto.h>
+// #include <AES.h>
 #include "test.h"
+
+#include <crypto.h>
+#include <cipher/aes.h>
 
 TestVector const testVectorAES128 = {
     .name = "AES-128",
@@ -24,7 +27,7 @@ TestVector const testVectorAES256 = {
              0x18, 0x19, 0x1A, 0x1B, 0x1C, 0x1D, 0x1E, 0x1F}
 };
 
-void perfAESCipher(BlockCipher *cipher, const struct TestVector *test);
+void perfAESCipher(AesContext *context, const struct TestVector *test);
 void testAES();
 
 #endif
