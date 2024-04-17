@@ -1,18 +1,38 @@
 #include <Arduino.h>
+#include "test.h"
 
-// put function declarations here:
-int myFunction(int, int);
+#define TEST_BLOWFISH
 
-void setup() {
-  // put your setup code here, to run once:
-  int result = myFunction(2, 3);
+#if defined(TEST_AES)
+    #include "aes_test.h"
+#elif defined(TEST_DES)
+    #include "des_test.h"
+#elif defined(TEST_BLOWFISH)
+    #include "blowfish_test.h"
+#elif defined(TEST_XXTEA)
+    #include "xxtea_test.h"
+#endif
+
+byte buffer[(int) BUFFER_SIZE];
+
+void setup()
+{
+    Serial.begin(9600);
+
+	Serial.println();
+    Serial.println("Performance Tests:");
+
+    #if defined(TEST_AES)
+        testAES();
+    #elif defined(TEST_DES)
+        testDES();
+    #elif defined(TEST_BLOWFISH)
+        testBlowfish();
+    #elif defined(TEST_BLOWFISH)
+        testBlowfish();
+    #elif defined(TEST_XXTEA)
+        testXXTEA();
+    #endif
 }
 
-void loop() {
-  // put your main code here, to run repeatedly:
-}
-
-// put function definitions here:
-int myFunction(int x, int y) {
-  return x + y;
-}
+void loop() {}
