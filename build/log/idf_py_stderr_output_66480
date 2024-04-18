@@ -1,0 +1,2263 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM6 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM6 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d60e9: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:428
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd2: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe0: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fdd: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5432: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:19
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd4: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fc6: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:391
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fcf: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd2: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe8: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:395
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe3: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5ee7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:366
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d60e9: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:428
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe0: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd4: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd4: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d60e9: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:428
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fc1: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:390
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd2: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5ee7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:366
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fdd: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fcf: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe0: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe8: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:395
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd4: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63d7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:534
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6296: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:489
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d54c1: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d632b: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:511
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6289: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:486
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62c3: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:496
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d631a: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:509
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d638b: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:525
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63e3: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:535
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6333: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:512
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63a1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:527
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62dc: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:500
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d633c: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:513
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d628c: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:486
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62c0: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:496
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d631a: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:509
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d637f: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:522
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63e3: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:535
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d631d: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:509
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6366: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:519
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d629c: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:492
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6312: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:508
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6473: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:549
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d629f: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:492
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6312: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:508
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d639b: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:526
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63d7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:534
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d631a: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:509
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6366: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:519
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62b2: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:494
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6312: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:508
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6470: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:549
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d554d: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:44
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f8e: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:383
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fa5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:386
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fc1: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:390
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd2: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f97: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:384
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd4: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6137: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:436
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5ff9: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:398
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6059: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:410
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6023: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:403
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d608a: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:417
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6073: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:414
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6071: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:414
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f99: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:384
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d61ce: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:450
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f75: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:378
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6096: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:378 (discriminator 1)
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fee: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:395
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd4: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:392
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6004: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:399
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6001: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:399
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d601b: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:402
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5eff: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:366
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d604d: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:409
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d606e: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:414
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d61ce: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:450
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5feb: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:395
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6023: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:403
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6150: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:438
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d607b: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f7b: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:381
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6067: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:414
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d608a: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:417
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fc3: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:390
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fad: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:387
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5feb: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:395
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5444: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d607b: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62b5: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:495
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6430: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:543
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6299: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:492
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6299: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:492
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62b8: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:495
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62da: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:500
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6352: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:516
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d64f0: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:562
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62ed: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:502
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6347: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:514
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d639b: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:526
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63b6: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:528
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62a4: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:493
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62d4: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:498
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6430: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:543
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63b1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:528
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62c0: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:496
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6399: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:526
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62f8: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:504
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62a7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:493
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62da: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:500
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6296: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:489
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6312: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:508
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d637a: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:521
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62d1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:498
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d645f: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:548
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63b1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:528
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62c0: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:496
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6399: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:526
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62f8: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:504
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62a7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:493
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62da: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:500
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6296: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:489
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6312: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:508
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d637a: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:521
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6390: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:525
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6358: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:517
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d5556: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:45
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f7b: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:381
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d60e9: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:428
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fb3: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:387
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f75: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:378
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d605e: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:411
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f7b: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:381
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6073: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:414
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fc9: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:391
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5f9f: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:385
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d608c: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:417
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5449: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6096: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:378 (discriminator 1)
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6001: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:399
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5449: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6082: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:416
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5ff1: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:397
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5438: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6078: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5438: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d608c: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:417
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5449: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6096: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:378 (discriminator 1)
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6001: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:399
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5449: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6082: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:416
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5ff1: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:397
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5438: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6078: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fe5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:394
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5438: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d608c: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:417
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5fd7: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:393
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5449: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6096: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:378 (discriminator 1)
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6001: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:399
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5449: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:20 (discriminator 3)
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6082: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:416
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5ff1: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:397
+0x400d5441: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d5438: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6366: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:519
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d635d: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:518
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6462: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:548
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6374: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:520
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6430: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:543
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63a4: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:527
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62d7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:500
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6388: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:525
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63d7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:534
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6347: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:514
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d640f: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:539
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6371: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:520
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63f1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:537
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d632b: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:511
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63a6: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:527
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62f5: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:503
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63e5: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:535
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62c3: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:496
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63b6: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:528
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d638b: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:525
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63a4: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:527
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62ac: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:494
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63f1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:537
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62e7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:502
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6371: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:520
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62f3: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:503
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d64c3: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:560
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d636e: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:520
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62df: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:501
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63a1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:527
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6430: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:543
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62a9: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:493
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6374: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:520
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62e7: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:502
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d640f: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:539
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6322: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:510
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6366: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:519
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d635a: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:517
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63e5: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:535
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d63b1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:528
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6374: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:520
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d62d1: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:498
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d640f: aesDecryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:539
+0x400d54cd: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:32
+0x400d555f: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:46
+0x400d53f9: app_main at C:/Users/noahl/esp/crypto/main/main.c:70
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6cb3: desEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/des.c:370
+0x400d56dd: perfDESCipher at C:/Users/noahl/esp/crypto/main/des_test.c:19
+0x400d57e9: testDES at C:/Users/noahl/esp/crypto/main/des_test.c:42
+0x400d53fc: app_main at C:/Users/noahl/esp/crypto/main/main.c:71
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6d0c: desEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/des.c:370
+0x400d56dd: perfDESCipher at C:/Users/noahl/esp/crypto/main/des_test.c:19
+0x400d57e9: testDES at C:/Users/noahl/esp/crypto/main/des_test.c:42
+0x400d53fc: app_main at C:/Users/noahl/esp/crypto/main/main.c:71
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x400d9607: task_wdt_timeout_handling at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:441
+0x400d99cc: task_wdt_isr at C:/Users/noahl/esp/esp-idf/components/esp_system/task_wdt/task_wdt.c:515
+0x40082f51: _xt_lowint1 at C:/Users/noahl/esp/esp-idf/components/xtensa/xtensa_vectors.S:1240
+0x400d6c91: desEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/des.c:370
+0x400d56dd: perfDESCipher at C:/Users/noahl/esp/crypto/main/des_test.c:19
+0x400d57e9: testDES at C:/Users/noahl/esp/crypto/main/des_test.c:42
+0x400d53fc: app_main at C:/Users/noahl/esp/crypto/main/main.c:71
+0x400e6bb0: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0m

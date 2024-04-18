@@ -1,0 +1,16 @@
+{
+    "files.associations": {
+        "aes_test.h": "c",
+        "string.h": "c",
+        "aes.h": "c",
+        "blowfish_test.h": "c",
+        "serpent_test.h": "c",
+        "twofish_test.h": "c",
+        "des_test.h": "c",
+        "des3_test.h": "c",
+        "cipher_modes.h": "c",
+        "crypto.h": "c",
+        "cipher_algorithms.h": "c",
+        "xtea_test.h": "c"
+    }
+}

@@ -1,0 +1,2371 @@
+etets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (30) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (35) boot: chip revision: v1.0[0m
+[0;32mI (39) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (44) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (48) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (53) boot: Enabling RNG early entropy source...[0m
+[0;32mI (58) boot: Partition Table:[0m
+[0;32mI (62) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (69) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (76) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (84) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (91) boot: End of partition table[0m
+[0;32mI (96) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (118) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (122) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (130) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (160) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (181) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (181) boot: Disabling RNG early entropy source...[0m
+[0;32mI (192) cpu_start: Multicore app[0m
+[0;32mI (201) cpu_start: Pro cpu start user code[0m
+[0;32mI (201) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (201) cpu_start: Application information:[0m
+[0;32mI (204) cpu_start: Project name:     crypto[0m
+[0;32mI (209) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (214) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (220) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (226) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (231) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (236) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (241) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (246) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (253) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (259) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (265) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (271) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (278) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (285) spi_flash: detected chip: generic[0m
+[0;32mI (289) spi_flash: flash io: dio[0m
+[0;33mW (293) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (306) main_task: Started on CPU0[0m
+[0;32mI (316) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733945 us per byte, 1362499.334717 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (276) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720195 us per byte, 1388512.230840 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (276) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614219 us per byte, 1628084.456881 bytes per second
+AES-192 Encrypting ... 0.734219 us per byte, 1361991.913173 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614219 us per byte, 1628084.456881 bytes per second
+AES-192 Encrypting ... 0.734219 us per byte, 1361991.913173 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628867 us per byte, 1590160.879558 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.734219 us per byte, 1361991.913173 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628867 us per byte, 1590160.879558 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.734219 us per byte, 1361991.913173 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733945 us per byte, 1362499.334717 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.733906 us per byte, 1362571.854375 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628867 us per byte, 1590160.879558 bytes per second
+AES-128 Decrypting ... 0.614180 us per byte, 1628188.004834 bytes per second
+AES-192 Encrypting ... 0.734219 us per byte, 1361991.913173 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
+[0;32mI (230) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (230) boot: Disabling RNG early entropy source...[0m
+[0;32mI (242) cpu_start: Multicore app[0m
+[0;32mI (251) cpu_start: Pro cpu start user code[0m
+[0;32mI (251) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (251) cpu_start: Application information:[0m
+[0;32mI (254) cpu_start: Project name:     crypto[0m
+[0;32mI (259) cpu_start: App version:      bf61e84-dirty[0m
+[0;32mI (264) cpu_start: Compile time:     Apr 17 2024 22:25:48[0m
+[0;32mI (270) cpu_start: ELF file SHA256:  f688311f7...[0m
+[0;32mI (275) cpu_start: ESP-IDF:          v5.2.1-dirty[0m
+[0;32mI (281) cpu_start: Min chip rev:     v0.0[0m
+[0;32mI (286) cpu_start: Max chip rev:     v3.99 [0m
+[0;32mI (290) cpu_start: Chip rev:         v1.0[0m
+[0;32mI (295) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (303) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (308) heap_init: At 3FFB3178 len 0002CE88 (179 KiB): DRAM[0m
+[0;32mI (315) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (321) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (327) heap_init: At 4008C71C len 000138E4 (78 KiB): IRAM[0m
+[0;32mI (335) spi_flash: detected chip: generic[0m
+[0;32mI (338) spi_flash: flash io: dio[0m
+[0;33mW (342) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (356) main_task: Started on CPU0[0m
+[0;32mI (366) main_task: Calling app_main()[0m
+
+Performance Tests:
+AES-128 Encrypting ... 0.628828 us per byte, 1590259.659585 bytes per second
+AES-128 Decrypting ... 0.614219 us per byte, 1628084.456881 bytes per second
+AES-192 Encrypting ... 0.734219 us per byte, 1361991.913173 bytes per second
+AES-192 Decrypting ... 0.720156 us per byte, 1388587.546105 bytes per second
+ets Jun  8 2016 00:22:57
+
+rst:0x8 (TG1WDT_SYS_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:7172
+load:0x40078000,len:15540
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3904
+entry 0x40080640
+[0;32mI (61) boot: ESP-IDF v5.2.1-dirty 2nd stage bootloader[0m
+[0;32mI (61) boot: compile time Apr 17 2024 22:07:48[0m
+[0;32mI (61) boot: Multicore bootloader[0m
+[0;32mI (67) boot: chip revision: v1.0[0m
+[0;32mI (71) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (75) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (80) boot.esp32: SPI Flash Size : 2MB[0m
+[0;33mW (84) boot.esp32: PRO CPU has been reset by WDT.[0m
+[0;33mW (90) boot.esp32: WDT reset info: PRO CPU PC=0x400d5799[0m
+[0;33mW (96) boot.esp32: WDT reset info: APP CPU PC=0x400d1abe[0m
+[0;32mI (102) boot: Enabling RNG early entropy source...[0m
+[0;32mI (107) boot: Partition Table:[0m
+[0;32mI (111) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (118) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (126) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (133) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (141) boot: End of partition table[0m
+[0;32mI (145) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=0a024h ( 40996) map[0m
+[0;32mI (168) esp_image: segment 1: paddr=0001a04c vaddr=3ffb0000 size=0220ch (  8716) load[0m
+[0;32mI (171) esp_image: segment 2: paddr=0001c260 vaddr=40080000 size=03db8h ( 15800) load[0m
+[0;32mI (180) esp_image: segment 3: paddr=00020020 vaddr=400d0020 size=13e0ch ( 81420) map[0m
+[0;32mI (210) esp_image: segment 4: paddr=00033e34 vaddr=40083db8 size=08964h ( 35172) load[0m
