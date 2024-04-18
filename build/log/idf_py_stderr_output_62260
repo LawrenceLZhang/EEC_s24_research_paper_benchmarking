@@ -1,0 +1,259 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM6 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM6 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d55d5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:419
+[0m
+[0;33m0x400d1ace: panic_handler at C:/Users/noahl/esp/esp-idf/components/esp_system/port/panic_handler.c:138 (discriminator 3)
+[0m
+[0m

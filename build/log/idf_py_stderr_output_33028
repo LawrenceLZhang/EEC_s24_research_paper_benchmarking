@@ -1,0 +1,1104 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM6 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM6 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_test.c:42
+0x400d52c9: app_main at C:/Users/noahl/esp/crypto/main/main.c:36
+0x400e366c: main_task at C:/Users/noahl/esp/esp-idf/components/freertos/app_startup.c:208
+0x40086021: vPortTaskWrapper at C:/Users/noahl/esp/esp-idf/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33mTo exit from IDF monitor please use "Ctrl+]". Alternatively, you can use Ctrl+T Ctrl+X to exit.[0m
+[0;33m0x40080400: _init at ??:?
+[0m
+[0;33m0x400d9530: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+[0m
+[0;33m0x400014fd: strlen in ROM
+0x4000150d: strlen in ROM
+[0m
+[0;33m0x400d952d: _vfprintf_r at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/vfprintf.c:911
+0x400d893b: printf at /builds/idf/crosstool-NG/.build/HOST-x86_64-w64-mingw32/xtensa-esp-elf/src/newlib/newlib/libc/stdio/printf.c:56
+0x400d5ac5: aesEncryptBlock at C:/Users/noahl/esp/crypto/components/CycloneCRYPTO/cipher/aes.c:415
+0x400d5303: perfAESCipher at C:/Users/noahl/esp/crypto/main/aes_test.c:21
+0x400d5413: testAES at C:/Users/noahl/esp/crypto/main/aes_tes
